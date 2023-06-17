@@ -15,7 +15,7 @@ export class Chair implements ChairInterface{
       }
     }
   };
-  getDimensions(): Dimension{
+  getDimension(): Dimension{
     return this.dimension;
   }
 };
